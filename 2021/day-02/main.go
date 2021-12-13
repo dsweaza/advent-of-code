@@ -9,21 +9,18 @@ import (
 )
 
 func main() {
-	file, err := os.Open("input.txt")
-	scanner := bufio.NewScanner(file)
 
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	//Part1(scanner)
-
-	Part2(scanner)
+	fmt.Println("** Part 1 **")
+	Part1()
+	fmt.Println("")
+	fmt.Println("** Part 2 **")
+	Part2()
 
 }
 
-func Part1(scanner *bufio.Scanner) {
-
+func Part1() {
+	file, _ := os.Open("input.txt")
+	scanner := bufio.NewScanner(file)
 	x := 0
 	y := 0
 
@@ -49,7 +46,9 @@ func Part1(scanner *bufio.Scanner) {
 	fmt.Println("Answer:", x*y)
 }
 
-func Part2(scanner *bufio.Scanner) {
+func Part2() {
+	file, _ := os.Open("input.txt")
+	scanner := bufio.NewScanner(file)
 
 	x := 0
 	y := 0
