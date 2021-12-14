@@ -11,3 +11,5 @@ https://adventofcode.com
 [Day 2 - GoLang](https://github.com/dsweaza/advent-of-code/tree/main/2021/day-02)
 
 [Day 3 - GoLang](https://github.com/dsweaza/advent-of-code/tree/main/2021/day-03)
+
+[Day 4 - GoLang](https://github.com/dsweaza/advent-of-code/tree/main/2021/day-04)
